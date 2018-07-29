@@ -13,7 +13,8 @@ module.exports = {
         'webpack-dev-server': 'webpack-dev-server/client?http://0.0.0.0:8081', // WebpackDevServer host and port
         'webpack': 'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
         'plugins': path.join(__dirname, "js", "examples", "plugins", "app"),
-        'api': path.join(__dirname, "js", "examples", "api", "app")
+        'api': path.join(__dirname, "js", "examples", "api", "app"),
+        'dropit': path.join(__dirname, "js", "examples", "dropit", "app")
     }, themeEntries),
     output: {
         path: path.join(__dirname, "dist"),

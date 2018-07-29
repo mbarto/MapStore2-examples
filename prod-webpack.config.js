@@ -40,6 +40,6 @@ webpackConfig.devtool = undefined;
 
 // this is a workaround for this issue https://github.com/webpack/file-loader/issues/3
 // use `__webpack_public_path__` in the index.html when fixed
-webpackConfig.output.publicPath = "/MapStore2-examples/dist/";
+webpackConfig.output.publicPath = "/dist/";
 
 module.exports = webpackConfig;
